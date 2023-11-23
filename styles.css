@@ -1,0 +1,137 @@
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    padding-inline:7rem;
+    justify-content: space-between;
+}
+body{
+    margin: 0px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    margin: 0;
+    margin-top: 0;
+    padding: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.introhead{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.introdesc{
+    font-size: 18px;
+}
+
+.placeholderimg{
+    height: 300px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.intro button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 10px;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+}
+
+.infosection{
+    background-color: #f9faf8;
+    color: #1F2937;
+    padding: 7rem;
+}
+
+.infohead{
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+}
+
+.infocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infos img{
+    height: 200px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.quotecontainer{
+    padding: 7rem;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    padding-inline: 10rem;
+}
+
+.quotes{
+    margin-inline:5rem;
+}
+
+.person{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+}
+
+.contact{
+    background-color: #f9faf8;
+    color: #1F2937;
+    padding: 3rem;
+}
+
+.contactcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 4rem;
+    color: #E5E7EB;
+    border-radius: 5px;
+    margin-inline:10rem;
+}
+
+.contactcontainer button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 15px;
+    width: 5rem;
+    height: 3rem;
+    align-self: center;
+}
+
+.footers{
+    padding: 4rem;
+    text-align: center;
+}
